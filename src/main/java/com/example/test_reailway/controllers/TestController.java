@@ -1,4 +1,8 @@
-package main.java.com.example.test_reailway.controllers;
+package com.example.test_reailway.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("test")
